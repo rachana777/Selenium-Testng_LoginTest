@@ -3,3 +3,4 @@ target/
 .settings
 .project/
 src/test/resources/testdata/testdata.xlsx
+**/.DS_Store
