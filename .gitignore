@@ -1,6 +1,6 @@
 target/
 .classpath
 .settings
-.project/
+.project
 src/test/resources/testdata/testdata.xlsx
 **/.DS_Store
