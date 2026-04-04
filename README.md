@@ -1,7 +1,8 @@
 # Selenium TestNG Zoho Website Login Automation
 
 ## Framework Overview
-A simple data-driven automation framework built with Selenium WebDriver and TestNG for automated login testing.
+A data-driven Selenium Testng automation framework in Java using Maven for dependency management. It follows a layer
+structure where BaseClass handles all WebDriver initialization and property file loading, keeping setup logic separate from the test logic. Test data is stored in Excel file and read using Apache POI, which is then fed into test using DataProvider annotation so each row serve as an independent test case.
 
 ## Test Scenario Covered
 -Success: Valid cred entered - Dashboard Loads <br>
